@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 487px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.slider-container {
+    overflow: hidden;
+    /* background-color: pink; */
+    position: relative;
+}
+
+.slider-track {
+    display: flex;
+}
+
+/* Style for arrows */
+
+.btn-prev, .btn-next {
+    width: 25px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+}
+
+.btn-next {
+    left: 459px;
+}
+
+
+/* Style for small pictures and radio */
+
+#radio-picture1, #radio-picture2, #radio-picture3, #radio-picture4 {
+    position: absolute;
+    top: 298px;
+}
+
+#radio-picture1 { left: 20%; }
+
+#radio-picture2 { left: 40%; }
+
+#radio-picture3 { left: 60%; }
+
+#radio-picture4 { left: 80%; }
+
+#picture1-small {
+    position: absolute;
+    top: 215px;
+    left: 9%;
+    display: none;
+}
+
+#picture2-small {
+    position: absolute;
+    top: 215px;
+    left: 29%;
+    display: none;
+}
+
+#picture3-small {
+    position: absolute;
+    top: 215px;
+    left: 49%;
+    display: none;
+}
+
+#picture4-small {
+    position: absolute;
+    top: 215px;
+    left: 69%;
+    display: none;
+}
+
+
+
+
+
+
+
+
+

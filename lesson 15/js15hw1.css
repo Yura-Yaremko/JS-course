@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* STYLE FOR CONTAINER */
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#containerCotent {
+    width: 800px;
+    height: 400px;
+    border: 2px solid silver;
+}
+
+/* STYLE FOR BOX */
+#box {
+    width: 50px;
+    height: 50px;
+    border: 2px solid  black;
+    background: lightgrey;
+    position: relative;
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+/* STYLE FOR MENU */
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+#menuContent {
+    width: 300px;
+    height: 210px;
+    border: 2px solid silver;
+}
+
+/* STYLE FOR BUTTONS */
+#button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#create, #coordinates {
+    padding: 2px 7px 2px 7px;
+
+}
+
+/* STYLE FOR INPUTS */
+#widthAndHeight {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#width, #height {
+    width: 70px;
+    
+}
+
+/* STYLE FOR TEXT NEAR INPUTS */
+/* #px {
+    margin-right: 10px;
+} */
+
+/* STYLE FOR BOX WITH COLORS */
+#colors {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#red, #blue, #green {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#red {
+    background-color: rgb(236, 39, 39);
+    border: 3px solid rgb(255, 0, 0); 
+    outline: 3px solid rgb(97, 2, 2);
+}
+
+#blue {
+    background-color: rgb(60, 60, 161);
+    border: 3px solid blue; 
+    outline: 3px solid rgb(8, 3, 85);
+}
+
+#green {
+    background-color: rgb(63, 201, 63);
+    border: 3px solid green; 
+    outline: 3px solid rgb(5, 68, 5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

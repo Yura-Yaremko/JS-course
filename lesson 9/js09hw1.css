@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+p{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+table {
+    border: 2px solid red;
+    margin-left: 400px;
+    display: none;
+}
+
+tr {   /* кількість комірок */
+    
+    height: 100px;
+}
+
+td {  /* кількість рядків */
+    width: 100px;
+    border: 1px solid silver;
+}
+
+#td1-1 {
+    background-color: rgb(52, 193, 218);
+}
+
+#td1-2 {
+    background-color: brown;
+}
+
+#td1-3 {
+    background-color: rgb(20, 202, 81);
+}
+
+#td2-1 {
+    background-color:green;
+}
+
+#td2-2 {
+    background-color:rgb(197, 135, 197);
+}
+
+#td2-3 {
+    background-color: red;
+}
+
+#td3-1 {
+    background-color:blue;
+}
+
+#td3-2 {
+    background-color:purple;
+}
+
+#td3-3 {
+    background-color:rgb(78, 109, 61);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #all{
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        #content{
+            width: 700px;
+        }
+
+        #article{
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        #text{
+            font-size: 1.2em;
+        }
+
+        button{
+            width: 250px;
+            height: 30px;
+            border-radius: 5px;
+            background-color: rgb(8, 170, 8);
+            color: white;
+            border: 1px solid silver;
+            outline-color: rgb(193, 193, 236);
+        }
+
+        #move1, #move2{
+            width: 200px;
+            height: 25px;
+            border-radius: 5px;
+            border: 1px solid silver;
+            outline-color: rgb(193, 193, 236);
+        }
+
+        #plcHld{
+            width: 660px;
+            height: 25px;
+            border-radius: 5px;
+            border: 1px solid silver;
+            outline-color: rgb(193, 193, 236);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="all">
+        <div id="content">
+            <p id="article">Task move</p>
+            <p id="text">Значення переміщується з одного інпута в іншй тільки,
+                якщо там є значення.</p>
+            <input type="text" id="move1" />
+            <button id="moveButton">Move</button>
+            <input type="text" id="move2" />
+            <p id="article">Task placeholder</p>
+            <p id="text">Значення переміщується в placeholder тільки якщо там є значення</p>
+            <input type="text" id="plcHld" />
+        </div>
+    </div>
+    <script src="js10hw1.js"></script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline-style: none;
+}
+
+#box1 {
+    display: flex;
+    justify-content: center;
+}
+
+#form1 {
+    width: 700px;
+    /* background-color: red; */
+    margin-top: 30px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+/* Style for header */
+
+#header1 {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color:rgb(15, 131, 15);
+    align-items: center;
+}
+
+#header1 p {
+    color: white;
+    font-size: 1.2em;
+}
+
+
+/* Style for medium section */
+
+#medium {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    background-color: rgb(255, 254, 254);
+}
+
+#mediunContent {
+    width: 660px;
+}
+
+#inputTextFistName, #inputTextSecondName, #inputTextEmail {
+    width: 660px;
+    border-radius: 5px;
+    height: 30px;
+    border: 1.5px solid silver;
+    margin-bottom: 10px;
+} 
+
+
+#mediumContent p {
+    color: #333;
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#inputRadio1 , #inputRadio2 {
+    margin-right: 10px;
+}
+
+#inputRadio2 {
+    margin-left: 20px;
+}
+
+#slct {
+    width: 660px;
+    border-radius: 5px;
+    height: 30px;
+    border: 1.5px solid silver;
+    margin-bottom: 10px;
+}
+
+#chkbox {
+    margin-right: 10px;
+}
+
+
+/* Style for footer */
+
+
+#footer1 {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+    border: 1px solid silver;
+    margin-top: 20px;
+}
+
+#ftrButton {
+    width: 660px;
+    border-radius: 5px;
+    height: 40px;
+    border: 1.5px solid silver;
+    margin-bottom: 10px;
+    background-color: rgb(15, 131, 15);
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+
+
+/* #ftrButton a{
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+} */
+
+
+/* Style for form */
+
+#box2 {
+    display: none;
+    justify-content: center;
+    
+}
+
+#form2 {
+    width: 500px;
+    /* background-color: red; */
+    margin-top: 30px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+/* Style for header */
+
+#header2 {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color:rgb(15, 131, 15);
+    align-items: center;
+}
+
+/* Style for medium section */
+
+#mediumSection {
+    background-color: rgb(255, 254, 254);
+}
+
+#stateImg, #fullName, #eml, #pstn, #footer2, #button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+#state {
+    height: 100px;
+    width: auto;
+    margin-top: -50px;
+    border-radius: 50px;
+    border: 2px solid rgb(255, 254, 254);
+}
+
+#mediumSectionContent p, #mediumSection span {
+    font-size: 1.2em;
+}
+
+#mediumSection span {
+    font-weight: bold;
+}
+
+#pstn {
+    margin-bottom: 20px;
+}
+
+#buttonOut {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+
+#footer2 {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color:rgb(15, 131, 15);
+    align-items: center;
+}
+
+#socialMedia {
+    height: 25px;
+    width: auto;
+    margin-right: 10px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

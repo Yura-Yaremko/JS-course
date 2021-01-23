@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="js12.css">
+</head>
+
+<body>
+    <div id="boxText">
+        <div id="boxText-content">
+            <p class="main-text">Lorem ipsum dolor sit amet. </p>
+            <p class="main-text">Lorem ipsum dolor sit amet. </p>
+            <p class="main-text">Lorem ipsum dolor sit amet. </p>
+            <p class="main-text">Lorem ipsum dolor sit amet. </p>
+            <p class="main-text">Lorem ipsum dolor sit amet. </p>
+        </div>
+    </div>
+    <div id="buttons">
+        <button type="button" id="edit">edit</button>
+        <button type="button" id="style">style</button>
+    </div>
+    <div id="boxEdit">
+        <div id="boxEdit-content">
+            <textarea name="" id="textarea" cols="130" rows="10"></textarea>
+            <br />
+            <button type="button" id="add">add</button>
+            <button type="button" id="save">save</button>
+        </div>
+    </div>
+    <div id="boxStyle">
+        <div id="boxStyle-content">
+            <p id="titleToStile">Font Size:</p>
+            <input type="radio" name="px" class="radioFontSize" value="12px">12px
+            <input type="radio" name="px" class="radioFontSize" value="14px">14px
+            <input type="radio" name="px" class="radioFontSize" value="16px">16px
+            <input type="radio" name="px" class="radioFontSize" value="18px">18px
+            <input type="radio" name="px" class="radioFontSize" value="20px">20px
+            <p id="titleToStile">Font Family:</p>
+            <select name="" id="select" value="" >
+                <option value="" disabled selected>Chose option</option>
+                <option class="fontFamily" value="cursive">cursive</option>
+                <option class="fontFamily" value="fantasy">fantasy</option>
+                <option class="fontFamily" value="monospace">monospace</option>
+                <option class="fontFamily" value="sans-serif">sans-serif</option>
+            </select>
+            <div id="colorsStyle">
+                <div id="colorsTxtButtons">
+                    <p id="titleToStile">Colors:</p>
+                    <button type="button" id="colorTxt">Color of Text</button>
+                    <button type="button" id="colorBack">Background color</button>
+                </div>
+                <div id="colorsBox">
+                    <table id="tbl1">
+                        <tr id="trColor">
+                            <td class="colorTxt" id="td1-1" value="red">red</td>
+                            <td class="colorTxt" id="td1-2" value="blue">blue</td>
+                            <td class="colorTxt" id="td1-3" value="green">green</td>
+                        </tr>
+                        <tr id="trColor">
+                            <td class="colorTxt" id="td2-1" value="black">black</td>
+                            <td class="colorTxt" id="td2-2" value="yellow">yellow</td>
+                            <td class="colorTxt" id="td2-3" value="pink">pink</td>
+                        </tr>
+                        <tr id="trColor">
+                            <td class="colorTxt" id="td3-1" value="white">white</td>
+                            <td class="colorTxt" id="td3-2" value="purple">purple</td>
+                            <td class="colorTxt" id="td3-3" value="aqua">aqua</td>
+                        </tr>
+                    </table>
+                    <table id="tbl2">
+                        <tr id="trColor">
+                            <td class="colorBack" id="td1-1" value="red">red</td>
+                            <td class="colorBack" id="td1-2" value="blue">blue</td>
+                            <td class="colorBack" id="td1-3" value="green">green</td>
+                        </tr>
+                        <tr id="trColor">
+                            <td class="colorBack" id="td2-1" value="black">black</td>
+                            <td class="colorBack" id="td2-2" value="yellow">yellow</td>
+                            <td class="colorBack" id="td2-3" value="pink">pink</td>
+                        </tr>
+                        <tr id="trColor">
+                            <td class="colorBack" id="td3-1" value="white">white</td>
+                            <td class="colorBack" id="td3-2" value="purple">purple</td>
+                            <td class="colorBack" id="td3-3" value="aqua">aqua</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <p id="titleToStile">Style:</p>
+            <input type="checkbox" id="checkboxBold">Bold text
+            <input type="checkbox" id="checkboxCursive">Cursive text
+        </div>
+    </div>
+    <div id="boxTableAndList">
+        <div id="boxTableAndList-content">
+            <h1 id="chose">Chose what you want:</h1>
+            <input type="radio" name="tableandlist" class="radioTable" id="table(tableOrList)">table
+            <input type="radio" name="tableandlist" class="radioList" id="list(tableOrList)">list
+        </div>
+    </div>
+    <div id="boxTable">
+        <div id="boxTable-content">
+            <div id="countTable">
+                <h1 id="chose">Chose what you want:</h1>
+                <input type="radio" name="tableandlist(table)" class="radioTable" checked="checked" id="table(tableBox)">table
+                <input type="radio" name="tableandlist(table)" class="radioList" id="list(tableBox)">list
+                <br />
+                <div id="countTR">
+                    <p id="titleToStile">Count TR:</p><input placeholder="Count TR:" type="text" id="countTr">
+
+                </div>
+                <br />
+                <div id="countTD">
+                    <p id="titleToStile">Count TD:</p><input placeholder="Count TD:" type="text" id="countTd">
+                </div>
+
+                <h1>Add style to your table:</h1>
+                <div id="widthTD">
+                    <p id="titleToStile">Width of TD:</p><input placeholder="Width of TD:" type="text" id="widthTd">
+                </div>
+                <br />
+                <div id="heightTD">
+                    <p id="titleToStile">Height of TD:</p><input placeholder="Height of TD:" type="text" id="heightTd">
+                </div>
+
+                <br />
+            </div>
+            <div id="borderTableStyle">
+                <p id="titleToStile">Width of border:</p><input type="text" id="widthBorder">
+                <p id="titleToStile">Type of border</p>
+                <select id="styleSelectBorder">
+                    <option value="solid" class="typeOfBorder">solid</option>
+                    <option value="dotted" class="typeOfBorder">dotted</option>
+                    <option value="dashed" class="typeOfBorder">dashed</option>
+                    <option value="double" class="typeOfBorder">double</option>
+                </select>
+                <p>Color of border:</p>
+                <select id="styleSelectColor">
+                    <option value="black" class="colorOfBorder">black</option>
+                    <option value="red" class="colorOfBorder">red</option>
+                    <option value="blue" class="colorOfBorder">blue</option>
+                    <option value="green" class="colorOfBorder">green</option>
+                </select>
+            </div>
+            <br />
+            <button type="button" id="cretaeTable">Create table</button>
+        </div>
+    </div>
+    <div id="boxList">
+        <div id="boxList-content">
+            <h1 id="chose">Chose what you want:</h1>
+            <input type="radio" name="tableandlist(list)" class="radioTable" id="table(list)">table
+            <input type="radio" name="tableandlist(list)" class="radioList" checked="checked" id="list(list)">list
+            <br />
+            <div id="countLI">
+                <p id="titleToStile">Count Li:</p><input type="text" id="countLi">
+            </div>
+            <div id="typeMarks">
+                <p id="titleToStile">Type of marks:</p>
+                <select id="styleSelectMarks">
+                    <option value="circle" class="typeOfMarks">circle</option>
+                    <option value="disc" class="typeOfMarks">disc</option>
+                    <option value="square" class="typeOfMarks">square</option>
+                </select>
+            </div>
+            <button type="button" id="createList">Create list</button>
+        </div>
+    </div>
+
+    <script src="js12.js"></script>
+</body>
+
+</html>

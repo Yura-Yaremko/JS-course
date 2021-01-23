@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="js10hw2.css" /> -->
+</head>
+
+<body>
+    <div id="box2">
+        <form id="form2" value="">
+            <header id="header2"></header>
+            <div id="mediumSection">
+                <div id="mediumSectionContent">
+                    <div id="stateImg">
+                        <img id="state" src="../img/man.png" />
+                        <!-- <img id="state" src="../img/woman.png"/> -->
+                    </div>
+                    <br />
+                    <div id="fullName">
+                        <span id="firstName">First Name</span>
+                        <span id="secondName">Second Name</span>
+                    </div>
+                    <div id="eml">
+                        <p id="email">Email</p>
+                    </div>
+                    <div id="pstn">
+                        <p id="position">Position</p>
+                    </div>
+                    <div id="button">
+                        <button id="buttonOut" disabled>Sign Out</button>
+                    </div>    
+                </div>
+            </div>
+            <footer id="footer2">
+                <img id="socialMedia" src="../img/instagram.png" title="instagram" />
+                <img id="socialMedia" src="../img/telegram.png" title="telegram" />
+                <img id="socialMedia" src="../img/vkontakte.png" title="vkontakte" />
+            </footer>
+        </form>
+    </div>
+</body>
+ <script>
+    let FistName = localStorage.getItem("firstname") 
+    document.getElementById("firstName").innerHTML = FistName
+    let SecondName = localStorage.getItem("secondname") 
+    document.getElementById("secondName").innerHTML = SecondName
+    let Email = localStorage.getItem("email") 
+    document.getElementById("email").innerHTML = Email
+    let State = localStorage.getItem("state")
+    if (State == "woman") {
+        document.getElementById("state").src = "../img/woman.png"
+    } 
+    let Positionn = localStorage.getItem("position")
+    document.getElementById("position").innerHTML = Positionn
+</script>
+</html>

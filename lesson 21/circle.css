@@ -1,0 +1,71 @@
+body{
+    background: #1e1e1e;
+}
+
+@keyframes progress {
+    0%{clip-path: polygon(50%, 50%, 50%, 150%, 50%, 150%, 50%, 150%, 50%, 150%, 50%, 150%)}
+    25%{clip-path: polygon(50%, 50%, -50%, 50%, 50%, 150%, 50%, 150%, 50%, 150%, 50%, 150%)}
+    50%{clip-path: polygon(50%, 50%, 50%, -50%, -50%, 50%, 50%, 150%, 50%, 150%, 50%, 150%)}
+    75%{clip-path: polygon(50%, 50%, 150%, 50%, 50%, -50%, -50%, 50%, 50%, 150%, 50%, 150%)}
+    100%{clip-path: polygon(50%, 50%, 150%, 50%, 50%, -50%, -50%, 50%, 50%, 150%, 50%, 150%)}
+}
+
+.progress{
+    width: 10rem;
+    height: 10rem;
+    border: 2rem solid #5dc7fc;
+    box-sizing: border-box;
+    border-radius: 50%;
+    animation: progress linear 3s infinite;
+    box-shadow: 0 0 0 5rem red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

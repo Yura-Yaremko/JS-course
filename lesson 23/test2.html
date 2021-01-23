@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="test2.css">
+</head>
+
+<body>
+
+</body>
+<div id="page-wrapper">
+    <nav id="mainNav">
+        <ul>
+            <li><button type="button" id="tag" value="true"><img src="../img/tag.png" id="tagImg"></button></li>
+            <li><button type="button" id="bold" value="true"><img src="../img/bold.png" id="boldImg"></button></li>
+            <li><button type="button" id="cursive" value="true"><img src="../img/cursive.png" id="cursiveImg"></button>
+            </li>
+            <li><button type="button" id="underline" value="true"><img src="../img/underline.png"
+                        id="underlineImg"></button></li>
+            <li><button type="button" id="strike" value="true"><img src="../img/strike.png" id="strikeImg"></button>
+            </li>
+            <li><button type="button" id="leftText" value="true"><img src="../img/text-left.png"
+                        id="leftTextImg"></button>
+            </li>
+            <li><button type="button" id="centerText" value="true"><img src="../img/text-center.png"
+                        id="centerTextImg"></button></li>
+            <li><button type="button" id="rightText" value="true"><img src="../img/text-right.png"
+                        id="rightTextImg"></button></li>
+            <li><button type="button" id="font" value="true"><img src="../img/font.png" id="fontImg"></button>
+                <ul>
+                    <li><button id="arial" class="fonts" value="Arial" type="button">Arial</button></li>
+                    <li><button id="georgia" class="fonts" value="Georgia" type="button">Georgia</button></li>
+                    <li><button id="impact" class="fonts" value="Impact" type="button">Impact</button></li>
+                    <li><button id="tahoma" class="fonts" value="Tahoma" type="button">Tahoma</button></li>
+                    <li><button id="timesNewRoman" class="fonts" value="Times New Roman" type="button">Times New
+                            Roman</button></li>
+                    <li><button id="verdana" class="fonts" value="Verdana" type="button">Verdana</button></li>
+                </ul>
+            </li>
+            <li><button type="button" id="size" value="true"><img src="../img/size.png" id="sizeImg"></button>
+                <ul>
+                    <li><button class="sizes" value="12" type="button">12px</button></li>
+                    <li><button class="sizes" value="14" type="button">14px</button></li>
+                    <li><button class="sizes" value="16" type="button">16px</button></li>
+                    <li><button class="sizes" value="18" type="button">18px</button></li>
+                    <li><button class="sizes" value="20" type="button">20px</button></li>
+                    <li><button class="sizes" value="22" type="button">22px</button></li>
+                    <li><button class="sizes" value="24" type="button">24px</button></li>
+                    <li><button class="sizes" value="26" type="button">26px</button></li>
+                </ul>
+            </li>
+            <li><button type="button" id="textColor" value="true"><img src="../img/background-color.png"
+                        id="textColorImg"></a></li>
+            <li><button type="button" id="backgroundFile" value="true"><img src="../img/file.png"
+                        id="backgroundFileImg"></a></li>
+            <li><button type="button" id="lock" value="true"><img src="../img/lock.png" id="lockImg"></a></li>
+    </nav>
+    <nav id="tagNav">
+        <ul>
+            <li> <button id="save"><img src="../img/save.png" id="saveImg"></button>
+            </li>
+            <li> <button id="tableUser"><img src="../img/table.png" id="tableUserImg"></button>
+            </li>
+            <li> <button id="olListUser"><img src="../img/olList.png" id="olListUserImg"></button>
+            </li>
+            <li> <button id="ulListUser"><img src="../img/ulList.png" id="ulListUserImg"></button>
+            </li>
+        </ul>
+    </nav>
+    <div id="textSection">
+        <div id="textSectionContent">
+            <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, aut.</p>
+            <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quos.</p>
+            <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, possimus.</p>
+            <p class="main-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, ipsum!</p>
+            <p class="main-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, qui.</p>
+        </div>
+    </div>
+    <div id="textArea">
+        <textarea id="area" cols="100" rows="20"></textarea>
+    </div>
+</div>
+
+<div id="tableBoxColorText">
+    <table id="tblTxt">
+        <tr>
+            <td class="textColor" id="td1-1"></td>
+            <td class="textColor" id="td1-2"></td>
+            <td class="textColor" id="td1-3"></td>
+            <td class="textColor" id="td1-4"></td>
+            <td class="textColor" id="td1-5"></td>
+            <td class="textColor" id="td1-6"></td>
+            <td class="textColor" id="td1-7"></td>
+        </tr>
+        <tr>
+            <td class="textColor" id="td2-1"></td>
+            <td class="textColor" id="td2-2"></td>
+            <td class="textColor" id="td2-3"></td>
+            <td class="textColor" id="td2-4"></td>
+            <td class="textColor" id="td2-5"></td>
+            <td class="textColor" id="td2-6"></td>
+            <td class="textColor" id="td2-7"></td>
+        </tr>
+        <tr>
+            <td class="textColor" id="td3-1"></td>
+            <td class="textColor" id="td3-2"></td>
+            <td class="textColor" id="td3-3"></td>
+            <td class="textColor" id="td3-4"></td>
+            <td class="textColor" id="td3-5"></td>
+            <td class="textColor" id="td3-6"></td>
+            <td class="textColor" id="td3-7"></td>
+        </tr>
+    </table>
+</div>
+
+<div id="background">
+    <button id="bckColor" type="button">Colors</button>
+    <button id="bckImg" type="button">Images</button>
+    <button id="bckFile" type="button">File</button>
+</div>
+
+<div id="tableBoxBackgroundColor">
+    <table id="tblBckClr">
+        <tr>
+            <td class="backColor" id="td1-1ST"></td>
+            <td class="backColor" id="td1-2ST"></td>
+            <td class="backColor" id="td1-3ST"></td>
+            <td class="backColor" id="td1-4ST"></td>
+            <td class="backColor" id="td1-5ST"></td>
+            <td class="backColor" id="td1-6ST"></td>
+            <td class="backColor" id="td1-7ST"></td>
+        </tr>
+        <tr>
+            <td class="backColor" id="td2-1ST"></td>
+            <td class="backColor" id="td2-2ST"></td>
+            <td class="backColor" id="td2-3ST"></td>
+            <td class="backColor" id="td2-4ST"></td>
+            <td class="backColor" id="td2-5ST"></td>
+            <td class="backColor" id="td2-6ST"></td>
+            <td class="backColor" id="td2-7ST"></td>
+        </tr>
+        <tr>
+            <td class="backColor" id="td3-1ST"></td>
+            <td class="backColor" id="td3-2ST"></td>
+            <td class="backColor" id="td3-3ST"></td>
+            <td class="backColor" id="td3-4ST"></td>
+            <td class="backColor" id="td3-5ST"></td>
+            <td class="backColor" id="td3-6ST"></td>
+            <td class="backColor" id="td3-7ST"></td>
+        </tr>
+    </table>
+</div>
+
+<div id="tableBackgroundImage">
+    <table id="tblBckImg">
+        <tr>
+            <td><img src="../img/0.jpg" class="bckImage"></td>
+            <td><img src="../img/1.jpg" class="bckImage"></td>
+            <td><img src="../img/2.jpg" class="bckImage"></td>
+        </tr>
+        <tr>
+            <td><img src="../img/3.jpg" class="bckImage"></td>
+            <td><img src="../img/4.jpg" class="bckImage"></td>
+            <td><img src="../img/5.jpg" class="bckImage"></td>
+        </tr>
+        <tr>
+            <td><img src="../img/6.jpg" class="bckImage"></td>
+            <td><img src="../img/7.jpg" class="bckImage"></td>
+            <td><img src="../img/8.jpg" class="bckImage"></td>
+        </tr>
+    </table>
+</div>
+<div id="backgroundFileBox">
+    <input type="text" placeholder="Chose your file" id="choseFile">
+    <input type="file" id="file">
+</div>
+<form id="loginBox">
+    <h1 id="signTxt">Sign In</h1>
+    <hr id="hrLgn">
+    <input type="text" id="login" placeholder="Login here...">
+    <input type="password" id="password" placeholder="Password here...">
+    <button type="button" id="signInBtn">Sign In</button>
+</form>
+<form id="userTable">
+    <div id="userTablePrt-1">
+        <p>Count TR:</p>
+        <input type="text" id="countTr" placeholder="Type here...">
+        <p>Width of TD:</p>
+        <input type="text" id="widthTd" placeholder="Type here...">
+        <p>Width of border:</p>
+        <input type="text" id="widthBorder" placeholder="Type here...">
+        <br>
+        <button type="button" id="resetBtn">Reset</button>
+    </div>
+    <div id="userTablePrt-2">
+        <p>Count TD:</p>
+        <input type="text" id="countTd" placeholder="Type here...">
+        <p>Height of TD:</p>
+        <input type="text" id="heightTd" placeholder="Type here...">
+        <p>Style of border:</p>
+        <select id="slctUserTbl">
+            <option value="solid">solid</option>
+            <option value="dotted">dotted</option>
+            <option value="dashed">dashed</option>
+            <option value="double">double</option>
+        </select>
+        <p>Color of border:</p>
+        <input type="text" id="userTblBorderClr" placeholder="Type here..">
+        <br>
+        <button type="button" id="createTblBtn">Create table</button>
+    </div>
+</form>
+<form id="userOlList">
+    <div id="userOlListContainer">
+        <p>Count li item:</p>
+        <input type="text" id="countLiOl" placeholder="Type here...">
+        <p>Type mark of list:</p>
+
+        <select id="slctUserOlList">
+            <option value="a">a</option>
+            <option value="A">A</option>
+            <option value="i">i</option>
+            <option value="I">I</option>
+            <option value="1">1</option>
+        </select>
+        <br>
+        <button type="button" id="resetUserOlList">Reset</button>
+        <button type="button" id="createUserOlList">Create list</button>
+    </div>
+</form>
+<form id="userUlList">
+    <div id="userUlListContainer">
+        <p>Count li item:</p>
+        <input type="text" id="countLiUl" placeholder="Type here...">
+        <p>Type mark of list:</p>
+        <select id="slctUserUlList">
+            <option value="circle">circle</option>
+            <option value="disc">disc</option>
+            <option value="square">square</option>
+        </select>
+        <br>
+        <button type="button" id="resetUserUlList">Reset</button>
+        <button type="button" id="createUserUlList">Create list</button>
+    </div>
+</form>
+
+<script src="test2.js"></script>
+
+</html>

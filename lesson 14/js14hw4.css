@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* #container {
+    display: flex;
+    justify-content: center;
+} */
+
+#content {
+    width: 600px;
+    /* height: 300px; */
+    border: 2px solid silver;
+    margin: 20px auto;
+}
+
+#box-content{
+    width: 300px;
+    /* height: 200px; */
+    margin: 20px auto;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+#words {
+    margin-bottom: 5px;
+}
+
+#word {
+    color: red;
+    margin-right: 5px;
+}
+
+#forbidenWord {
+    margin-bottom:7px;
+    margin-right: 7px;
+}
+
+#add, #cenzore {
+    padding: 0px 5px 0px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

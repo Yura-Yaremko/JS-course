@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.min.js"
+        integrity="sha512-VjRpiWhUqdNa9bwBV7LnlG8CwsCVPenFyOQTSRTOGHw/tjtME96zthh0Vv9Itf3i8w4CkUrdYaS6+dAt1m1YXQ=="
+        crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+
+        #phoneBox {
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        #phone {
+            width: 250px;
+            height: 400px;
+            position: relative;
+            /* z-index: 3; */
+        }
+
+        #minutesBox {
+            background-color: red;
+            width: 150px;
+            height: 370px;
+            position: absolute;
+            z-index: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="phoneBox">
+        <img src="../img/iphone.png" id="phone">
+        <p id="minutesBox"></p>
+    </div>
+
+    <script src="js20hw2.js"></script>
+</body>
+
+</html>

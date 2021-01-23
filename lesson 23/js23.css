@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for header section */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(100, 100, 100);
+    width: 100%;
+    height: 125px;
+}
+
+
+#header-content {
+    width: 570px;
+    /* background-color: red; */
+    height: 40px;
+    border-radius: 5px;
+    /* border: 2px solid silver; */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for text decoration, position of text, style of page */
+
+#textDecoration, #styleOfPage {
+    width: 160px;
+    display: flex;
+}
+
+#positionOfText {
+    width: 120px;
+    display: flex;
+}
+
+
+/* Style for buttons */
+
+#tag, #bold, #cursive, #underline, #strike, #leftText, #centerText, #rightText, #font, #size, #backgroundColor, #backgroundFile {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* Style for text section */
+
+#textSection{
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-text{
+    padding: 10px;
+}
+
+/* style for text-area */
+
+#textArea{
+    margin: 20px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+

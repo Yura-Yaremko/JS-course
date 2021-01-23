@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FBFBFB;
+}
+
+/* Style for menu */
+
+nav {
+    background-color: #869EA4;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    /* background-color: #1e1e1e; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav ul li button {
+    display: inline-block;
+    padding: 5px 10px;
+    /* color: white; */
+    /* width: 125px; */
+    border-radius: 5px;
+    border: 2px solid silver;
+    margin: 5px;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px #FBFBFB;
+    outline: none;
+}
+
+nav ul li button:hover {
+    background-color:#D7DADF;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+/* Style for text section */
+
+#textSection{
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-text, #newElements{
+    padding: 10px;
+}
+
+
+#arial {font-family: Arial;}
+
+#georgia{font-family: Georgia;}
+
+#impact{font-family: Impact;}
+
+#tahoma{font-family: Tahoma;}
+
+#timesNewRoman{font-family: 'Times New Roman';}
+
+#verdana{font-family: Verdana;}
+
+
+/* style for text-area */
+
+#textArea{
+    margin: 20px;
+    display: none;
+}
+
+/* Style for table colors of text */
+
+#tableBoxColorText{
+    margin: 20px auto;
+    width: 600px;
+    height: 300px;
+    background-color: #F2ECFF;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+
+/* Style for table colors of background */
+
+#tableBoxBackgroundColor{
+    margin: 111px auto;
+    width: 600px;
+    height: 300px;
+    background-color: #F2ECFF;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    border-top: 2px solid silver;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+/* Style for table images for background */
+
+#tableBackgroundImage{
+    margin: 111px auto;
+    width: 600px;
+    height: 300px;
+    background-color: #F2ECFF;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    border-top: 2px solid silver;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.bckImage{
+    width: 170px;
+    height: 75px;
+}
+
+/* Style for user file for background */
+
+#backgroundFileBox{
+    margin: 101px auto;
+    width: 600px;
+    height: 100px;
+    background-color: #F2ECFF;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    border-top: 2px solid silver;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#choseFile{
+    width: 250px;
+    height: 20px;
+    /* margin: 10px; */
+    padding: 5px 10px;
+}
+
+#file{
+    /* margin: 10px; */
+    background-color: silver;
+    border: 1px solid black;
+    height: 22px;
+    padding: 5px 10px;
+}
+
+/* Syle for td */
+
+td{
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+    color: transparent;
+}
+
+#td1-1, #td1-1ST{background-color: rgb(47, 155, 47);}
+
+#td1-2, #td1-2ST{background-color: rgb(16, 44, 16);}
+
+#td1-3, #td1-3ST{background-color: rgb(25, 13, 95);}
+
+#td1-4, #td1-4ST{background-color: rgb(121, 132, 165);}
+
+#td1-5, #td1-5ST{background-color: rgb(40, 17, 70);}
+
+#td1-6, #td1-6ST{background-color: rgb(196, 40, 28);}
+
+#td1-7, #td1-7ST{background-color: rgb(0, 128, 117);}
+
+
+#td2-1, #td2-1ST{background-color: rgb(14, 112, 58);}
+
+#td2-2, #td2-2ST{background-color: rgb(125, 175, 44);}
+
+#td2-3, #td2-3ST{background-color: rgb(56, 11, 49);}
+
+#td2-4, #td2-4ST{background-color: rgb(177, 96, 31);}
+
+#td2-5, #td2-5ST{background-color: rgb(116, 54, 122);}
+
+#td2-6, #td2-6ST{background-color: rgb(53, 117, 109);}
+
+#td2-7, #td2-7ST{background-color: rgb(31, 90, 36);}
+
+
+#td3-1, #td3-1ST{background-color: rgb(106, 161, 131);}
+
+#td3-2, #td3-2ST{background-color: rgb(35, 100, 40);}
+
+#td3-3, #td3-3ST{background-color: rgb(131, 150, 48);}
+
+#td3-4, #td3-4ST{background-color: rgb(17, 25, 37);}
+
+#td3-5, #td3-5ST{background-color: rgb(54, 18, 63);}
+
+#td3-6, #td3-6ST{background-color: rgb(85, 49, 60);}
+
+#td3-7, #td3-7ST{background-color: rgb(156, 119, 75);}
+
+
+ /* Style for background section */ 
+
+#background{
+    margin: 20px auto;
+    width: 600px;
+    height: 80px;
+    background-color: #F2ECFF;
+    display: none;
+    /* justify-content: flex-start; */
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#bckColor, #bckImg, #bckFile{
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid silver;
+    margin: 10px;
+    /* border: none; */
+}
+
+/* Style for login section */
+
+#loginBox {
+    margin: 20px auto;
+    width: 600px;
+    height: 300px;
+    background-color: #F2ECFF;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+
+#signTxt{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#login, #password, #signInBtn {
+    width: 550px;
+    height: 35px;
+    margin-top: 30px;
+}
+
+#hrLgn {
+    width: 100%;
+    height: 2px;
+    color: silver;
+    margin-top: 15px;
+}
+
+/* Style for headers */
+
+#tagNav {
+    display: none;
+}
+
+#mainNav {
+    display: flex;
+}
+
+/* Style for user table */
+
+#userTable {
+    margin: 20px auto;
+    width: 600px;
+    height: 375px;
+    background-color: #F2ECFF;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+
+#userTablePrt-1, #userTablePrt-2 {
+    width: 45%;
+}
+
+
+#userTable p {
+    font-size: 1.1em;
+}
+
+#userTable input{
+    width: 80%;
+    height: 20px;
+    padding: 5px;
+    outline: none;
+    margin: 15px 0px 15px 0px;
+
+}
+
+#resetBtn{
+    width: 85%;
+    background-color: rgb(214, 43, 43);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 3px 3px 3px #FBFBFB;
+    padding: 5px;
+}
+
+#userTable select {
+    width: 85%;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+}
+
+#createTblBtn{
+    width: 85%;
+    background: rgb(9, 110, 9);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 3px 3px 3px #FBFBFB;
+    padding: 5px;
+}
+
+/* Style for user's Ol list */
+
+#userOlList{
+    margin: 20px auto;
+    width: 600px;
+    height: 300px;
+    background-color: #F2ECFF;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+
+
+#userOlList p {
+    font-size: 1.1em;
+}
+
+#userOlList input{
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    outline: none;
+    margin: 15px 0px 15px 0px;
+}
+
+#userOlList select {
+    width: 317px;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    margin: 15px 0px 15px 0px;
+
+}
+
+#userOlList button{
+    width: 157px;
+}
+
+#resetUserOlList {
+    background-color: rgb(214, 43, 43);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 3px 3px 3px #FBFBFB;
+    padding: 5px;
+}
+
+#createUserOlList{
+    background: rgb(9, 110, 9);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 3px 3px 3px #FBFBFB;
+    padding: 5px;
+}
+
+/* Style for user's Ul list */
+
+#userUlList{
+    margin: 20px auto;
+    width: 600px;
+    height: 300px;
+    background-color: #F2ECFF;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+
+
+#userUlList p {
+    font-size: 1.1em;
+}
+
+#userUlList input{
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    outline: none;
+    margin: 15px 0px 15px 0px;
+}
+
+#userUlList select {
+    width: 317px;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    margin: 15px 0px 15px 0px;
+
+}
+
+#userUlList button{
+    width: 157px;
+}
+
+#resetUserUlList {
+    background-color: rgb(214, 43, 43);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 3px 3px 3px #FBFBFB;
+    padding: 5px;
+}
+
+#createUserUlList{
+    background: rgb(9, 110, 9);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 3px 3px 3px #FBFBFB;
+    padding: 5px;
+}
+
+
+

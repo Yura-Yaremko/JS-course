@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style for header section */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(100, 100, 100);
+    width: 100%;
+    height: 125px;
+}
+
+
+#header-content {
+    width: 570px;
+    /* background-color: red; */
+    height: 40px;
+    border-radius: 5px;
+    /* border: 2px solid silver; */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for text decoration, position of text, style of page */
+
+#textDecoration, #positionOfText, #styleOfPage, #tagList, #lockList{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+#textDecoration, #styleOfPage {
+    width: 160px;
+}
+
+#positionOfText {
+    width: 120px;
+}
+
+/* Style for buttons */
+
+#tag, #bold, #cursive, #underline, #strike, #leftText, #centerText, #rightText, #font, #size, #backgroundColor, #backgroundFile, #lock{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for drop menu */
+
+/* ul > li {
+    float: left;
+}
+
+ul::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+ul ul li {
+    display: none;
+    position: absolute;
+}
+
+ul li:hover ul {
+    display: block;
+} */
+
+/* Style for text section */
+
+#textSection{
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-text{
+    padding: 10px;
+}
+
+/* style for text-area */
+
+#textArea{
+    margin: 20px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

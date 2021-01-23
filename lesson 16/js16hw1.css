@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;;
+}
+
+/* Style for container */
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Styles for boxes */
+
+#box1 {
+    width: 500px;
+    border: 2px solid silver;
+    padding: 10px;;
+}
+
+#box2 {
+    min-width: 500px;
+}
+
+#box2-content {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 37px;
+}
+
+#new-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 15px;
+    min-width: 500px;
+}
+
+/* Style for text */
+
+p {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+span {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Style for inputs */
+
+input {
+    padding: 8px;
+    width: 475px;
+    margin-bottom: 10px;
+}
+
+/* STyle for buttons */
+
+#addUser {
+    padding: 5px 9px 5px 9px;
+    color: #333;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.edit {
+    padding: 5px 9px 5px 9px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.delete {
+    padding: 5px 9px 5px 9px;
+    background-color: red;
+    color: rgb(238, 235, 235);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* transition: 0,2s ease; */
+}
+
+#box{
+    margin: 20px auto;
+    background: linear-gradient(to bottom, #333 0%, green 0%);
+    width: 250px;
+    height: 400px;
+}
+
+#number{
+    text-align: center;
+    font-size: 5em;
+    color: white;
+}
+
+#minutes{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

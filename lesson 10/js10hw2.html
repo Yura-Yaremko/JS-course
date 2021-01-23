@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="js10hw2.css" />
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box1">
+        <div id="form1">
+            <header id="header1">
+                <p>Sign in</p>
+            </header>
+            <div id="medium">
+                <div id="mediumContent">
+                    <p>First Name</p>
+                    <input id="inputTextFistName" type="text">
+                    <p>Second Name</p>
+                    <input id="inputTextSecondName" type="text" placeholder="  type here...">
+                    <p>Email address</p>
+                    <input id="inputTextEmail" type="text" placeholder="  type here...">
+                    <br />
+                    <input id="inputRadio1" type="radio" name="state">man
+                    <input id="inputRadio2" type="radio" name="state">woman
+                    <p>Position</p>
+                    <select name="positions" id="slct">
+                        <option value="0" disabled selected>Chose...</option>
+                        <option value="1">Frontend</option>
+                        <option value="2">Backend</option>
+                        <option value="3">QC/QA</option>
+                    </select>
+                    <br />
+                    <input id="chkbox" type="checkbox">I agree all statements in Terms of service
+                    <br />
+                </div>
+            </div>
+            <footer id="footer1">
+                <button id= "ftrButton" disabled= "true">Sign in</button>
+            </footer>
+        </div>
+    </div>
+    <div id="box2">
+        <div id="form2">
+            <header id="header2"></header>
+            <div id="mediumSection">
+                <div id="mediumSectionContent">
+                    <div id="stateImg">
+                        <img id="state" src="../img/man.png" />
+                    </div>
+                    <br />
+                    <div id="fullName">
+                        <span id="firstName">First Name</span>
+                        <span id="secondName">Second Name</span>
+                    </div>
+                    <div id="eml">
+                        <p id="email">Email</p>
+                    </div>
+                    <div id="pstn">
+                        <p id="position">Position</p>
+                    </div>
+                    <div id="button">
+                        <button id="buttonOut" disabled>Sign Out</button>
+                    </div>    
+                </div>
+            </div>
+            <footer id="footer2">
+                <img id="socialMedia" src="../img/instagram.png" title="instagram" />
+                <img id="socialMedia" src="../img/telegram.png" title="telegram" />
+                <img id="socialMedia" src="../img/vkontakte.png" title="vkontakte" />
+            </footer>
+        </div>
+    </div>
+    <script src="js10hw2.js">
+    //     let FistName = localStorage.getItem("firstname") 
+    // document.getElementById("firstName").innerHTML = FistName
+    // let SecondName = localStorage.getItem("secondname") 
+    // document.getElementById("secondName").innerHTML = SecondName
+    // let Email = localStorage.getItem("email") 
+    // document.getElementById("email").innerHTML = Email
+    // let State = localStorage.getItem("state")
+    // if (State == "woman") {
+    //     document.getElementById("state").src = "../img/woman.png"
+    // } 
+    // let Positionn = localStorage.getItem("position")
+    // document.getElementById("position").innerHTML = Positionn
+    </script>
+</body>
+
+</html>
